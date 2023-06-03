@@ -3,7 +3,7 @@ const maxVal = 10;
 
 function randomNumberGenerate(min, max) {
 
-    const multiplier = max - min + 1; // 10 - 5 + + 1 = 6
+    const multiplier = max - min + 1; // 10 - 5 + 1 = 6
     console.log(multiplier);
     
     const output =  Math.floor(Math.random()*multiplier) + min; 
